@@ -137,7 +137,8 @@ ul.botones li{
  .contenido{
 
      width: 70%;
-     background-color: rgb(212, 212, 212);
+     /*background-color: #eed0cb;*/
+     
      margin-right: 20px;
      padding-right: 20px;
      
@@ -174,7 +175,7 @@ ul.botones li{
     padding: 20px;
     border-radius: 15px;
 
-    background-color: #b96a62;
+    background-color: rgb(212, 212, 212);
 }
 
 .imgprod{
