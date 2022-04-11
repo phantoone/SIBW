@@ -3,6 +3,8 @@ html, body{
     margin:0;
     padding:0;
     height: 100%;
+    background-color: #333333;
+    
 }
 
 
@@ -16,25 +18,30 @@ html, body{
 }
 
 .logo{
+    width:240px;
+    height: auto;
     margin-left: 20px;
-    width: 150px;
-    height: 150px;
-    padding: 5px;
+    margin-right: 20px;
+
+    background-color: #333333;
+    padding: 20px;
+    border-radius: 10px;
     float: left;
-    background-color: #353535;
-    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
 .imagen{
     width: 100%;
     height: auto;
-    background-color: white;
-
 }
 
 .container-title-menu{
     margin: 5px;
+    margin-top: 20px;
+
 }
 
 /*
@@ -42,10 +49,12 @@ html, body{
 */
 
 .title{
-    margin-left: 210px;
-    height: 100px;
+    margin-left: auto;
+    height: 10vmax;
 
-    background-color: #b96a62;
+    background-color: rgb(219, 84, 84);
+    overflow: hidden;
+    padding: 20px;
 
     /*Para centrarlo*/
     display: flex;
@@ -54,9 +63,11 @@ html, body{
 
     /*Cambiar el estilo del texto del nombre de la tienda*/
     color: white;
-    font-size: 70px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 100px;
+    font-family: 'Rock Salt', cursive;
 }
+
+
 
 /*
 -------------------- Estilización del menú -------------------- 
@@ -69,11 +80,12 @@ html, body{
     margin-left: 210px;
     height: 50px;
 
-    background-color: #353535;
+    background-color: #333333;
     
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align:center;
     
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -107,11 +119,9 @@ ul.botones li{
 */
 
 .footer{
-    /*Para ponerlo abajo del todo*/
     height:50px;
-    line-height:50px;
 
-    background:#353535;
+    background:#333333;
     color:white;
     
     text-align:center;
@@ -126,56 +136,68 @@ ul.botones li{
 
  .cuerpo{
      width: 100%; 
-     background-color: rgb(255, 255, 255);
+     height:auto;
+     margin-top: 20px;
+     margin-bottom: 20px;
+
+     background-image: url("../imagen/fondo7.jpg");
      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: top;
+    align-items: top;
     }
 
  .contenido{
 
      width: 70%;
-     /*background-color: #eed0cb;ddddd*/
+     height: auto;
+     /*background-attachment:fixed ;*/     
      
+     align-items: normal;
+     align-items: stretch;
      margin-right: 20px;
+     margin-left: 20px;
      padding-right: 20px;
+
+     overflow: auto;
      
     }
 
  .auxiliar{
-     width: 25%;
-     height: 100%;
-     background-color: #eed0cb;
+     width: 28%;
+     min-height: 90vmax;
+     background-color: #d6c0f3;
+     float: right;
      display: flex;
+     text-align: center;
      justify-content: center;
-     align-items: center;
+     font-size: 20px;
  }
 
  .contaux{
      width: 100%;
+     padding: 30px;
+
+
+ }
+
+ .contaux ul li a{
+    text-decoration: none;
+    color:black;
  }
 
 /*
 -------------------- Estilización de los productos -------------------- 
 */
- .fila{
-    width: 100%;
-    display: flex;
-   justify-content: center;
-   align-items: center;
-}
-
- /*----Productos----*/
-
 .producto{
-    width: 33%;
+    width: 24%;
     margin: 2.5%;
     padding: 20px;
     border-radius: 15px;
-
-    background-color: rgb(212, 212, 212);
+    background-color: rgb(218, 95, 95);/*#d6c0f3;*/
+    display: inline-block;
+    text-align: center;
 }
 
 .imgprod{
@@ -192,6 +214,8 @@ ul.botones li{
     padding: 5px;
     margin-top: 20px;
     border-radius: 20px;
+
+    overflow: hidden;
 
     font-size: auto;
 

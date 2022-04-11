@@ -1,0 +1,96 @@
+/*
+-------------------- Estilización de la cabecera -------------------- 
+*/
+
+.tituloimp{
+    display: flex;
+    justify-content: center;
+    margin-left: 80px;
+
+}
+
+.logoimp{
+
+    width:100px;
+    height: auto;
+    float: left;
+    border-radius: 100%;
+    vertical-align: middle;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagenimp{
+    width: 100%;
+    height: auto;
+}
+
+.nomtiendaimp{
+    margin-left: 30px;
+    height: 150px;
+
+    overflow: hidden;
+
+    /*Para centrarlo*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /*Cambiar el estilo del texto del nombre de la tienda*/
+    font-size: 80px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*
+-------------------- Estilización del nombre, marca precio y fotos del producto -------------------- 
+*/
+
+.infoimp{
+    width: 100%;
+    margin-top: 30px;
+    font-size: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nombreimp{
+    margin-left: 100px;
+}
+
+.fotosimp{
+    
+    display: flex;
+    justify-content: center;
+}
+
+.fotoimprimir{
+    width: auto;
+    height: 250px;
+    margin: 20px;
+}
+
+.descripcionimp{
+    width: 50%;
+    margin-left: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*
+-------------------- Estilización del pie de página -------------------- 
+*/
+
+.pieimp{
+    width: 50%;
+    margin-left: 450px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+

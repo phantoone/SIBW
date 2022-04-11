@@ -1,0 +1,227 @@
+
+/*
+-------------------- Estilización de la información de los productos-------------------- 
+*/
+/*Recuadro que abarca todo el contenido*/
+.detallescontenido{
+    width: 70%;
+     height: auto;
+     background-color: transparent;
+          
+     margin-right: 20px;
+     margin-left: 30px;
+     padding-right: 20px;
+
+}
+
+/*Recuadro que abarca el nombre, marca y precio del producto 
+además de las fotos adicionales del mismo*/
+.nombreyfotos{
+    width: 100%;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+}
+
+/*Recuadro que contiene el nombre del producto,
+la marca y su precio*/
+.marcayprecio{
+    width: 30%;
+    margin-top: 30px;
+    
+    font-size: xx-large;
+
+    
+}
+/*Nombre del producto*/
+.masnomprod{
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    font-size: 50px;
+    border-radius: 15px;
+    color: white;
+    
+    background-color: rgb(218, 95, 95);
+    
+}
+/*Marca del producto*/
+.marca{
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: white;
+}
+/*Precio del producto*/
+.precio{
+    width: 100%;
+    color: #c2685e;
+    margin: 10px;
+
+}
+
+/*Recuadro con fotos adicionales del producto*/
+.masfotos{
+    width: 75%;
+    height: 30vmax;
+
+    margin-top: 20px;
+    padding-left: 20px;
+    
+    display: flex;
+    
+}
+
+/*Para estilizar la imagen en sí, no el 
+recuadro que la contiene*/
+.fotodetalle{
+    width: 100%;
+    height: auto;
+    margin: 20px;
+}
+
+/*Recuadro que contiene el párraof con información más 
+extendida del producto*/
+.caracteristicas{
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(246,228,198);/*#dddddd*/;
+    border-radius: 20px;
+}
+/*Título de las características:
+"Caracteríticas del producto". Al tener un tamaño
+diferente lo aparté de lo demás*/
+.titulocaract{
+    font-size: 40px;
+}
+
+/*Este recuadro contiene toda la información adicional 
+del producto*/
+.cuerpocaract{
+    font-size: 20px;
+}
+
+/*Recuadro con los botones de imprimir, facebook, 
+instagram y twitter*/
+
+.botonesmedia{
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: rgb(218, 95, 95);
+    
+}
+
+/*Recuadro para los botones de las redes sociales*/
+.social{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Estilización de las fotos de los botones de redes sociales*/
+.socialmedia{
+    width: 30px;
+    height: 30px;
+}
+
+/*Estilizazión de los iconos de imprimir y redes sociales*/
+.icono{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.botoncomentarios{
+    width: auto;
+    
+}
+
+
+/*
+-------------------- Estilización de los comentarios -------------------- 
+*/
+
+#botoncomentarios {
+    background-image: url("../imagen/comentario.svg");
+    outline: none;
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+
+.titulocomentario{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+/* Incluye los comentarios y el formulario */
+#seccioncomentarios{
+    display: none;
+}
+
+/* Aquí están todos los comentarios */
+.comentarios{
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(246,228,198);/*#dddddd*/;
+    border-radius: 20px;
+}
+
+/* Comentario individual */
+.comentario{
+    width: 92%;
+
+    margin: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+
+}
+/* Autor del comentario */
+.autor{
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color:#d6c0f3;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+/* Formilario para hacer un comentario */
+.formulariocoment{
+    height:auto;
+    width: 92%;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 20px;
+
+    background-color: rgb(246,228,198);/*#dddddd*/;
+    border-radius: 20px;
+}
+
+/* Nombre del usuario que va a hacer el comentario */
+#nombre{
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Correo electrónico del usuario que va a hacer el comentario */
+#correo{
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Comentario que va a hacer el usuario */
+#areaTexto{
+    width:100%;
+}
